@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+
+.box {
+    height: 200px;
+    width: 550px;
+    background-color: gray;
+    border: 1px solid black;
+}
+.contaioner {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.c{
+    background-color: peru;
+    font-size: large;
+    font-weight: 600;
+    text-align: end;
+    padding-left: 40px;
+    margin-left: 379px;
+    padding-right: 49px;
+}
+@media screen and (max-width: 1300px){
+    .contaioner{
+        flex-wrap: wrap;
+        margin-top: 55px;
+    }
+}
